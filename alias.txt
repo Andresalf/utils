@@ -1,0 +1,19 @@
+**************************************************************************
+For bash:
+
+#Aliases
+alias lh="ls -lh"
+
+export BASH_IT_THEME='bobby-python'
+
+**************************************************************************
+For git:
+
+co = checkout
+br = branch
+st = status
+lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset %C(cyan)%ad' --abbrev-commit --date=short
+
+Examples:
+    $ git config --global alias.co checkout 
+    $ git config --global alias.lg "your_alias"
