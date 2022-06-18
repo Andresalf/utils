@@ -4,6 +4,8 @@ For bash:
 #Aliases
 alias lh="ls -lh"
 
+alias dockerps="docker ps --format 'table {{ .ID }}\t{{.Image}}\t{{ .Names }}\t{{.Networks}}\t{{.Ports}}\t{{.State}}\t{{.Status}}'"
+
 export BASH_IT_THEME='bobby-python'
 
 **************************************************************************
